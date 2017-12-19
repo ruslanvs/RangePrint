@@ -1,0 +1,1 @@
+Educational assignment at Coding Dojo. Basics of JavaScript.

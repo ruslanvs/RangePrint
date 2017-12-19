@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function rangeprint (start, stop, step) {
+            if (step == undefined) {
+                step = 1;
+            }
+
+            if (stop == undefined) {
+                stop = start;
+                start = 0;
+            }
+            
+            for (var i = start; i < stop; i += step) {
+                console.log (i);
+
+            }
+        }
+        rangeprint (2, 20, 2);
+    </script>
+    
+</body>
+</html>
